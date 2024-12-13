@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jaka to melodia</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h2>Jaka to melodia</h2>
+		<nav>
+			<nav-item onclick="show_modal(0)">
+				<span>Zasady</span>
+			</nav-item>
+			<nav-item onclick="show_modal(1)">
+				<span>O projekcie</span>
+			</nav-item>
+			<nav-item onclick="show_modal(2)">
+				<span>Lista piosenek</span>
+			</nav-item>
+		</nav>
+	</header>
+	<main>
+		<h1>Jaka to melodia - gra online</h1>
+		<p>Sprawdź swoją wiedzę muzyczną, w klasycznym formacie znanym z programu "Jaka to melodia?"</p>
+		<landing-button onclick="game_begin()">
+			<span>Zagraj teraz</span>
+		</landing-button>
+	</main>
+	<footer>
+		<span>Projekt na licencji open-source MIT</span>
+	</footer>
+
+	<modal-container>
+		<modal-box>
+			<!--  -->
+		</modal-box>
+	</modal-container>
+	
+	<script src="core.js"></script>
+</body>
+</html>
