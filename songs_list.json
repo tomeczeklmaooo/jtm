@@ -1,0 +1,77 @@
+{
+	"songs":
+	[
+		{
+			"artist": "Myslovitz",
+			"title": "Scenariusz dla moich sąsiadów",
+			"year": "1997",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Polski przebój"
+		},
+		{
+			"artist": "Cutting Crew",
+			"title": "(I Just) Died In Your Arms",
+			"year": "1986",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Zagraniczny przebój"
+		},
+		{
+			"artist": "Dire Straits",
+			"title": "Sultans Of Swing",
+			"year": "1978",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Zagraniczny przebój"
+		},
+		{
+			"artist": "Chłopcy Z Placu Broni",
+			"title": "Kocham wolność",
+			"year": "1990",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Polski przebój"
+		},
+		{
+			"artist": "U2",
+			"title": "Pride (In The Name Of Love)",
+			"year": "1984",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Zagraniczny przebój"
+		},
+		{
+			"artist": "The Animals",
+			"title": "House Of The Rising Sun",
+			"year": "1964",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Zagraniczny przebój"
+		},
+		{
+			"artist": "Queen & David Bowie",
+			"title": "Under Pressure",
+			"year": "1981",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Zespół - Zagraniczny przebój"
+		},
+		{
+			"artist": "David Bowie",
+			"title": "Starman",
+			"year": "1972",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Mężczyzna - Zagraniczny przebój"
+		},
+		{
+			"artist": "Falco",
+			"title": "Rock Me Amadeus",
+			"year": "1985",
+			"sound_file": "path/to/sound",
+			"r3_reward": 200,
+			"coverup_title": "Mężczyzna - Zagraniczny przebój"
+		}
+	]
+}

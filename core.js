@@ -70,7 +70,7 @@ var modal_songs_content = `
 		<h4>Lista piosenek</h4>
 	</modal-header>
 	<modal-content>
-		<span>Tutaj będzie lista piosenek (jak ją ogarnę)</span>
+		<span>Lista w formacie JSON: <a href="songs_list.json" target="_blank">songs_list.json</a></span>
 	</modal-content>
 `;
 
@@ -124,7 +124,13 @@ function show_modal(_modal_id)
 
 function game_begin()
 {
-	alert("Not implemented.");
+	fetch('songs_list.json').then((res) => res.json()).then((json) => {
+		console.log(json);
+		for (var i = 0; i < json['songs'].length; i++)
+		{
+			console.log(`${i + 1}: ${json['songs'][i]['artist']} - ${json['songs'][i]['title']} [${json['songs'][i]['year']}] | ${json['songs'][i]['r3_reward']} pkt. | ${json['songs'][i]['coverup_title']}`);
+		}
+	}).catch((e) => console.error(e));
 }
 
 window.onload = function()
